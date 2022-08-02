@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myfn(){ 
+           let n1 = document.getElementById("n1").value;
+            // alert(n1);
+            if(n1==null || n1=="" || n1==" "){ document.getElementById("p1").innerHTML="<span style='color:red'>;
+               
+            }
+                else{
+                    alert(document.getElementById("n1").innerHTML=n1)
+                }
+            // alert(Boolean(10 > 9));
+            // let k = false;
+            // if(k){alert("Ok")}else{alert("Not ok")}
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="n1" id="n1" />
+    <button onclick="myfn()">click</button>
+    <p id="p1"></p>
+</body>
+</html>

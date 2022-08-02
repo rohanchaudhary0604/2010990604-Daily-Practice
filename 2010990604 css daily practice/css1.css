@@ -1,0 +1,21 @@
+body{
+    font-size: 40px;
+}
+#divmain{
+    font-size: 32px;
+}
+#div1{
+    font-size: 40px;
+}
+#div2{
+    font-size: 2em;
+}
+#div3{
+    font-size: 2rem;
+}
+#div4{
+    font-size: 2vw;
+}
+#div5{
+    
+}

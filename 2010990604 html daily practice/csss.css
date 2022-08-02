@@ -1,0 +1,8 @@
+#colspn{
+    background-color: aqua;
+    color: brown;
+}
+
+table th, tr{
+    border: 1px solid red;
+}
